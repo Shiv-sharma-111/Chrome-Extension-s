@@ -12,7 +12,9 @@
     "default_icon":"chrome16.png",
     "default_popup":"popup.html"
   },
+  "options_page": "options.html",
   "permissions":[
-    "storage"
+    "storage",
+    "notifications"
   ]
 }
