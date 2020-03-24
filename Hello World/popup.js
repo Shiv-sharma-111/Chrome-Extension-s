@@ -3,3 +3,4 @@ $(function(){
     $('#greet').text('Hello' + $('#name').val());
   })
 })
+//browser_action extension
