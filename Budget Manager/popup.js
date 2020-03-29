@@ -1,8 +1,8 @@
 $(function() {
-  chrome.storage.sync.get(['total','limit'], function() {
+  chrome.storage.sync.get(['total','limit'], function(budget) {
     $('#total').text(budget.total);
     $('#limit').text(budget.limit);
-  })
+  });
 
 
   $('#spendAmount').click(function(){
@@ -29,7 +29,7 @@ $(function() {
       });
 
       $('#total').text(newTotal);
-      $('amount').val('');
+      $('#amount').val('');
     });
   });
 });
