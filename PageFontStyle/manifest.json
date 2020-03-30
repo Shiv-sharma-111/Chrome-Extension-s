@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name":"PageFontStyle Extension",
+  "version":"1.0",
+  "description":"Change font style on a specific page",
+  "icons": {
+    "128":"chrome128.png",
+    "48":"chrome48.png",
+    "16":"chrome16.png"
+  },
+  "page_action":{
+    "default_icon":"chrome16.png",
+    "default_popup":"popup.html",
+    "default_title":"PageFontStyle"
+  },
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent":false
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
