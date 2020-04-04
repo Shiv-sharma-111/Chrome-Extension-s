@@ -3,4 +3,4 @@
 
 1. [Hello World](https://github.com/Shiv-sharma-111/Chrome-Extensions/tree/master/Hello%20World) ```-A simple hello world extension who take input and append with **Hello** word```
 2. [Budget Manager](https://github.com/Shiv-sharma-111/Chrome-Extensions/tree/master/Budget%20Manager) ```-A simple budget manager extension which give options to set your budget limit and when you get over that budget then it notify you```
-3. [PageFontStyle]() ```-A Page action extension which change the css property of the assigned page in this extension assigned page is https://developer.chrome.com/ ```
+3. [PageFontStyle](https://github.com/Shiv-sharma-111/Chrome-Extensions/tree/master/PageFontStyle) ```-A Page action extension which change the css property of the assigned page. in this extension assigned page is https://developer.chrome.com/ ```
